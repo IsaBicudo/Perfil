@@ -1,7 +1,4 @@
-document.addEventListener( "click" , trocaCor );
-
-document.getElementById( "btn" ).addEventListener( "click" , trocaNome );
-
+document.getElementById( "btn" ).addEventListener( "click" , trocaCor );
 function trocaCor( e ) 
 {
     document.body.style.backgroundColor = 'black';

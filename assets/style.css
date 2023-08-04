@@ -1,11 +1,6 @@
-body, html, main, img, div, p {
-    border: 0;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-}
 body {
     background-color: #030356;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 figure {
     width: 200px;
@@ -26,32 +21,41 @@ h1 {
 }
 .descricao {
     width: 300px;
-    padding: 10px 60px;
+    padding: 0px 60px;
     border-radius: 50px;
-    margin-top: 85px;
     color: #030356;
     text-align: center;
     background-color: white;
-    height: 221px;
-    margin-left:  41px;
+    font-size: 15px;
 }
 .detalhes>span {
     display: block;
     margin-top: 10px;
 }
+.caixa {
+    display: flex;
+    justify-content: space-around;
+}
 .detalhes {
-    width: 232px;
-    padding: 10px 60px;
+    width: 300px;
+    padding: 0px 60px;
     border-radius: 50px;
     color: #030356;
     text-align: center;
     background-color: white;
-    height: 297px;
-    position: absolute;
-    right: 41px;
-    top: 376px;
+    font-size: 15px;
+}
+.botao {
+    width: 200px;
+    height: 70px;
+    margin: 0 auto;
 }
 button {
     width: 170px;
     height: 46px;
+    border-radius: 5px;
+    background-color: white;
+    border: 0;
+    color: #030356;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
